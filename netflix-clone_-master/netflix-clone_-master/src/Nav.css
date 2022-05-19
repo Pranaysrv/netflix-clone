@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  justify-content: space-between;
+  /*  */
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  /* to keep it fixed on the screen  */
+}
+
+.nav__logo {
+  align-content: center;
+  position: fixed;
+  left: 20px;
+  display: flex;
+  object-fit: contain;
+  width: 10vh;
+}
+/* to keep the aspect ratio we have to use object-fit:contain */
+.nav__black {
+  background-color: black;
+}

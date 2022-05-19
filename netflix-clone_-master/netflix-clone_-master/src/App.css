@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #111;
+}
+.desx {
+  padding: 2px;
+  color: aqua;
+}
